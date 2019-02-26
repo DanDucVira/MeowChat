@@ -1,2 +1,2 @@
-# TinCat
-A Webiste about an App called MewoChat
+#MeowChat
+A Webiste about an App called MeowChat
