@@ -1,2 +1,2 @@
 # MeowChat
-A Webiste about an App called MeowChat
+A Website about an App called <strong>MeowChat</strong>
