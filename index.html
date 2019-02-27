@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>MeowCat</title>
+
+  <!--Font Awesome link-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous">
+  <!--Google Fonts-->
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:800" rel="stylesheet">
+
+  <!--Bootstrap CDN-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="container-fluid" id="container-nav">
+      <!--Navigation-->
+      <nav class="navbar navbar-expand-lg  navbar-dark">
+        <a class="navbar-brand font-weight-bolder text-capitalize" href="">MeowChat</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+          <ul class="navbar-nav ml-auto font-weight-bolder text-capitalize">
+            <li class="nav-item">
+              <a class="nav-link" href="">Download</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+
+    <!-- ShowCase Content -->
+    <div class="container-fluid col-md-12" <div class="row" id="showcase">
+      <div class="col-md-12 ">
+        <h1 class="font-weight-bolder">Chat with interesting<br> cats nearby.</h1>
+        <div class="btn-container">
+          <button id="btn-hover" class=" btn btn-lg btn-green" type="button"> <i class="fab fa-apple p-1"> </i>Download</button>
+          <button class=" btn btn-lg btn btn-outline-light" type="button"> <i class="fab fa-google-play p-1"></i> </i>Download</button>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+  </header>
+
+
+  <!-- Features -->
+
+  <section id="features">
+    <div class="row">
+
+      <div class="features-box col-lg-4 text-center">
+        <i class=" icon fas fa-check-circle fa-5x "></i>
+        <h3>Easy to Use.</h3>
+        <p>So easy to use, even your cat could do it.</p>
+      </div>
+      <div class="features-box col-lg-4 text-center">
+        <i class=" icon fas fa-user-circle fa-5x "></i>
+        <h3>Profile Customization</h3>
+        <p>Your cat can customize their profile the way they want.</p>
+      </div>
+      <div class="features-box col-lg-4 text-center">
+        <i class=" icon fas fa-video fa-5x"></i>
+        <h3>Video and Voice calls</h3>
+        <p>Your cat can meow and see their friends live.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>I can finally share my costumes with my friends.</h2>
+          <img src="img/sparky.jpeg" alt="cat-profil">
+          <em>Sparky, Ottawa</em>
+        </div>
+        <div class="carousel-item">
+          <h2>I can Meow for hours at my friends thanks Meowchat.</h2>
+          <img src="img/apollo.jpeg" alt="cat-profil">
+          <em>Apollo, Toronto</em>
+        </div>
+        <div class="carousel-item">
+          <h2>I Love MeowChat. I can sleep in my bed and chat with friends. </h2>
+          <img src="img/Athena.jpeg" alt="cat-profil">
+          <em>Athena, Montreal</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+
+
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section id="press-section">
+    <img src="img/techcrunch.png" alt="tc-logo">
+    <img src="img/tnw.png" alt="tnw-logo">
+    <img src="img/bizinsider.png" alt="biz-insider-logo">
+    <img src="img/mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+
+    <h2 class="text-center font-weight-bold">A Plan for Every Cat's Needs</h2>
+    <p class="text-center font-weight-bold">Simple and affordable price plans for you and your cat.</p>
+    <div class="row ">
+      <div class="col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header text-center">
+            <h3 class="font-weight-bold">Balinese cat</h3>
+          </div>
+          <div class="card-body text-center">
+
+            <h2 class="font-weight-bold">Free</h2>
+
+            <p>10 Messages Per Day</p>
+            <p>Unlimited App Usage</p>
+            <button class="btn btn-lg btn-block btn-green" type="button">Sign Up</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header text-center">
+            <h3 class="font-weight-bold">Egyptian Mau</h3>
+          </div>
+          <div class="card-body text-center">
+            <h2 class="font-weight-bold">$7.99 / mo</h2>
+
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <button class="btn btn-lg btn-block btn-green" type="button">Sign Up</button>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-header text-center">
+            <h3 class="font-weight-bold">Ocicat</h3>
+          </div>
+          <div class="card-body text-center">
+
+            <h2 class="font-weight-bold">$12 / mo</h2>
+
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <button class="btn btn-lg btn-block btn-green" type="button">Sign Up</button>
+          </div>
+
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h3>Make your cat connected.</h3>
+    <button type="button">Download</button>
+    <button type="button">Download</button>
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+
+    <p>© Copyright 2019 MeowChat</p>
+
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
