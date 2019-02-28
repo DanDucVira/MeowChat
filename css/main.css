@@ -1,3 +1,4 @@
+/*color palette no. 137864 on colorhunt*/
 header {
     background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .4)), url("https://images.unsplash.com/photo-1515002246390-7bf7e8f87b54?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
     background-position: center;
@@ -38,7 +39,7 @@ h1 {
 }
 
 .navbar-brand:hover {
-    color: #32dbc6 !important;
+    color: #65c6c4 !important;
 }
 
 .nav-link {
@@ -46,7 +47,7 @@ h1 {
 }
 
 .nav-link:hover {
-    color: #32dbc6 !important;
+    color: #65c6c4 !important;
 }
 
 .navbar-nav {
@@ -66,7 +67,7 @@ h1 {
 
 /*btn styles*/
 .btn-green {
-    background-color: #32dbc6;
+    background-color: #65c6c4;
     color: white;
 
 }
@@ -99,7 +100,7 @@ h1 {
 
 /*Icons styles*/
 .icon {
-    color: #32dbc6;
+    color: #65c6c4;
     ;
     margin-bottom: 15px;
 }
@@ -112,7 +113,7 @@ h1 {
 #testimonials {
 
     text-align: center;
-    background-color: #b4e9e2;
+    background-color: #65c6c4;
     color: white;
     font-weight: bolder;
 
@@ -133,7 +134,7 @@ h1 {
 }
 
 #press-section {
-    background-color: #b4e9e2;
+    background-color: #65c6c4;
     text-align: center;
     padding-bottom: 3%;
 
@@ -149,9 +150,40 @@ h1 {
 */
 .carousel-item {
     padding: 7% 15%;
+
 }
 
 /*pricing Styles*/
 #pricing {
     padding: 35px;
+}
+
+.btn-pricing {
+    padding: 10px 80px;
+}
+
+/*Call to action styles*/
+#call-to-action {
+    background-color: #32dbc6;
+    color: #fff;
+    text-align: center;
+    padding: 10% 15%;
+
+}
+
+.cta-heading {
+    font-family: "Montserrat-black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+/*Footer styles*/
+#main-footer {
+    padding: 10% 15%;
+    text-align: center;
+}
+
+#main-footer .footer-icons {
+    margin: 20px 10px;
 }
