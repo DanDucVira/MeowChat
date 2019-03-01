@@ -1,0 +1,26 @@
+.l-heading {
+    font-size: 40px !important;
+
+
+}
+
+header {
+    background-image: url("https://images.pexels.com/photos/982865/pexels-photo-982865.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") !important;
+    width: 100% !important;
+}
+
+.cta-heading {
+    font-size: 2rem !important;
+}
+
+.carousel-heading {
+    font-size: 2rem !important;
+}
+
+#testimonials img {
+    width: 35% !important;
+}
+
+.navbar-brand {
+    font-size: 25px !important;
+}
