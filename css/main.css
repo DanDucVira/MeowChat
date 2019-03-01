@@ -23,7 +23,7 @@ body {
 
 /*Navigation Styles*/
 
-#container-nav {
+.container-nav {
     padding: 2% 15%;
 
 }
@@ -48,7 +48,7 @@ body {
 }
 
 /*ShowCase styles*/
-#showcase {
+.showcase {
     color: white;
     text-align: center;
     padding-top: 95px;
